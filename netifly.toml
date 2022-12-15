@@ -1,0 +1,7 @@
+[build]
+  publish = “dist/04-Angular-router-main”
+  command = “ng build”
+[[redirects]]
+  from = “/*”
+  to = “/index.html”
+  status = 200
